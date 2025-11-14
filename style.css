@@ -1,0 +1,306 @@
+*{
+padding: 0%;
+margin: 0%;
+
+}
+
+
+
+
+#nav{
+display: flex;
+justify-content: space-between;
+box-shadow: 10px;
+box-shadow: 0px 10px 25px rgba(0,0,0,0.2);
+}
+.mybtn,.mybtn1{
+margin: 10px;
+height: 30px;
+background-color: red ;
+width: 70px;
+font-size: medium;
+transition: width 0.3s ease;
+transform-origin: left;
+
+}
+.mybtn:hover{
+background-color: rgb(157, 7, 7);
+width:100px;
+
+}
+.mybtn1:hover{
+
+background-color: rgb(157, 7, 7);
+width: 100px;
+
+}
+
+
+
+.saman{
+margin: 30px;
+display: flex;
+gap: 20px;
+font-size: larger;
+letter-spacing: 1px;
+align-items: center;
+position: absolute;
+margin-left: 500px;
+}
+.h3{
+margin: 10px;
+display: flex;
+align-items: center;
+gap: 10px;
+font-size: x-large;
+
+}
+.saman1{
+display: flex;
+gap: 10px;
+justify-content: center;
+align-items: center;
+
+}
+.h3 img{
+width: 80px;
+height: 80px;
+border-radius: 80px;
+
+}
+.saman a{
+    text-decoration: none;
+    
+}
+.saman a:hover{
+text-decoration: underline;
+
+
+}
+.class{
+width: 60px;
+height: 30px;
+background-color: red;
+border-radius: 10px;
+
+}
+.class:hover{
+
+  background-color: rgb(157, 7, 7);
+width: 100px;
+
+}
+
+
+
+
+
+
+.box>input{
+font-size: 20px;
+width: 200px;
+height: 30px;
+}
+.h2{
+justify-content: center;
+align-items: center;
+font-size: 30px;
+display: flex;
+padding-top: 200px;
+flex-direction: column;
+padding-bottom: 100px;
+
+
+}
+.full{
+height: 400px;
+width: 100%;
+display: flex;
+gap: 50px;
+margin: auto;
+
+justify-content: space-around;
+}
+.para{
+font-size: large;
+
+}
+
+
+.div4:hover{
+transform: scale(1.02) ;
+box-shadow: 0px 10px 25px rgba(0,0,0,0.2);
+
+}
+
+
+.div4{
+height: 100%;
+width: 300px;
+box-shadow: 0px 10px 25px rgba(0,0,0,0.2);
+
+border-radius: 10px;
+
+font-size: 30px;
+text-align: center;
+transition:all 0.3s ease ;
+
+
+}
+.div2{
+height:  100%;
+width:300px;
+box-shadow: 0px 10px 25px rgba(0,0,0,0.2);
+
+border-radius: 10px ;
+font-size: 30px;
+text-align: center;
+transition:all 0.3s ease ;
+
+}
+.div3{
+height: 100% ;
+width: 300px;
+border-radius: 10px;
+transition:all 0.3s ease ;
+box-shadow: 0px 10px 25px rgba(0,0,0,0.2);
+font-size: 30px;
+text-align: center;
+
+
+}
+.image1>img{
+height: 250px; ;
+width: 100%;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+
+
+
+}
+.image2>img{
+height: 250px;
+width: 100%;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+
+
+
+} 
+.image3>img{
+height: 250px ;
+width: 100%;
+border-top-right-radius: 10px;
+border-top-left-radius: 10px;
+
+}
+.pull{
+height: 400px;
+width: 100%;
+display: flex;
+gap: 50px;
+margin-top: 80px;
+justify-content: space-around;
+}
+.parag{
+font-size: small;
+text-align:start ;
+}
+
+.button{
+   color: white;
+   
+   border-radius: 1px solid;
+   height: 50px;
+  align-items: start;
+  width: 100px;
+  height: 200px;
+}
+.nisar{
+background-color: #161616;
+color: white;
+ width: 100px;
+  height: 50px;
+  margin: 20px;
+  text-align: start;
+  justify-content: right;
+border: 1px solid rgb(222, 221, 221);
+
+}
+
+.div3:hover{
+transform: scale(1.02) ;
+box-shadow: 0px 10px 25px rgba(0,0,0,0.2);
+}
+.div2:hover{
+transform: scale(1.02) ;
+box-shadow: 0px 10px 25px rgba(0,0,0,0.2);
+}
+.nisar{
+    
+    padding: 1rem 2.8rem;
+    background-color: black;
+    border-radius: 4rem;
+    font-size: 1.6rem;
+    color: white;
+    letter-spacing: 0.3rem;
+    font-weight: 700;
+    transition: 0.3s ease;
+    cursor: pointer;
+
+    
+    margin-right: 270px;
+
+    
+}
+.nisar:hover{
+    transform: scale3d(1.03);
+    background-color: #b74b4b;
+    color: black;
+    box-shadow: 0 0 25px #b74b4b;
+}
+.sabir{
+margin-top: 20px;
+}
+.application{
+
+    font-size: large;
+}
+.carousel-item img {
+  height: 400px;   /* jitni chahiye utni height */
+  
+  width: 100%;
+}
+.shoes{
+padding: 20px;
+align-items: center;
+text-align: center;
+justify-content: center;
+}
+.del{
+display: flex;
+text-align: center;
+justify-content: center;
+font-size: medium;
+gap: 10px;
+letter-spacing: -1px;
+}
+.my{
+
+margin: 10px;
+height: 30px;
+background-color: red ;
+width: 90px;
+font-size: medium;
+transition: width 0.3s ease;
+transform-origin: left;
+border-radius: 20px;
+}
+
+
+.my:hover{
+
+background-color: rgb(157, 7, 7);
+width: 100px;
+color: white;
+}
